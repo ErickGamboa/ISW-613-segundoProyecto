@@ -1,0 +1,371 @@
+CRITICAL - 2022-04-25 18:23:23 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(9): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 18:23:48 --> Undefined variable $row
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 57)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(9): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 18:37:49 --> view(): Argument #2 ($data) must be of type array, bool given, called in C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php on line 24
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(24): view('CategoriesAdmin...', true)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 18:50:19 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 18:51:33 --> Undefined global variable $_SESSION
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\Users\\y_eri\\...', 9)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 18:52:40 --> view(): Argument #2 ($data) must be of type array, bool given, called in C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php on line 24
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(24): view('CategoriesAdmin...', true)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 18:54:36 --> view(): Argument #2 ($data) must be of type array, bool given, called in C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php on line 24
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(24): view('CategoriesAdmin...', true)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 18:57:28 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 18:59:52 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:00:32 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:00:36 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:03:02 --> Undefined global variable $_SESSION
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:03:11 --> Undefined global variable $_SESSION
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:06:03 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:10:56 --> Undefined array key "user"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 11)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:25:40 --> Undefined property: App\Controllers\CategoriesAdminController::$session
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:25:59 --> Undefined property: App\Controllers\CategoriesAdminController::$session
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategoriesAdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\y_eri\\...', 10)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategoriesAdminController->index()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriesAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 19:26:19 --> Undefined property: App\Controllers\LoginController::$load
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\y_eri\\...', 23)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-25 21:24:50 --> Column 'nameCategory' cannot be null
+ERROR - 2022-04-25 21:27:00 --> Column 'nameCategory' cannot be null
+CRITICAL - 2022-04-25 22:43:12 --> Undefined variable $category
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:43:46 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:44:37 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:45:13 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(15): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:45:29 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(15): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:45:55 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(15): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:46:21 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(15): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:50:03 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:50:33 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:51:27 --> Undefined variable $dato
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(15): view('CategoriesAdmin...', Array)
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:52:35 --> Undefined variable $category
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:53:55 --> Undefined variable $category
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:54:03 --> Undefined variable $category
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 22:54:32 --> Undefined variable $category
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\CategoriesAdminView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 12)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategoriesAdmin...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('CategoriesAdmin...')
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 23:13:46 --> Invalid file: CategorieAdminController/index.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CategorieAdminC...')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('CategorieAdminC...', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(28): view('CategorieAdminC...')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:16:00 --> Invalid file: prueba.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('prueba', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('prueba')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:16:59 --> Invalid file: prueba.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('prueba', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('prueba')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:17:34 --> Invalid file: prueba.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('prueba', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('prueba')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:18:21 --> Invalid file: register.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\LoginController.php(27): view('register')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\LoginController->authentication()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:19:04 --> Invalid file: register.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\Home.php(9): view('register')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:20:06 --> Invalid file: register.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\Home.php(9): view('register')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:20:14 --> Invalid file: register.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\Home.php(9): view('register')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 23:20:17 --> Invalid file: register.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\Home.php(9): view('register')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

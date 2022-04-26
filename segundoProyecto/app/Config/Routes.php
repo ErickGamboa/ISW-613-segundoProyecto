@@ -53,3 +53,5 @@ $routes->get('register', 'RegisterController::index');
 $routes->post('saveUser', 'RegisterController::saveUser');
 $routes->get('login', 'LoginController::index');
 $routes->post('authentication', 'LoginController::authentication');
+$routes->get('CategoriesAdminView', 'CategorieAdminController::index');
+$routes->post('saveCategory', 'CategorieAdminController::saveCategory');

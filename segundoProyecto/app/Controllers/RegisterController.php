@@ -7,11 +7,17 @@ class RegisterController extends Controller{
 
     public function index()
     {
-        return view('RegisterView');
+        $name = session('name');
+        if($name===''){
+            return view('LoginView');
+        }else{
+            return view('RegisterView');
+        }
     }
     public function saveUser()
     {
         $user = new RegisterModel();
+
 
 
         $name = $this->request->getVar('name');

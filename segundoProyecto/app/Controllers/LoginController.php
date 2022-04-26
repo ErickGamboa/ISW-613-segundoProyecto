@@ -9,23 +9,39 @@ class LoginController extends Controller{
     {
         return view('LoginView');
     }
+    
     public function authentication(){
-        
+        $session = session();
         $email = trim($this->request->getVar('EmailLogin'));
         $password = trim($this->request->getVar('PasswordLogin'));
-
+        
         $model=model('LoginModel');
         if ($user = $model->getUserLogin('email', $email)){
             if($user['password']==$password){
-                print("entrooo");
+                if($user['typeUser']=="Administrator"){
+                    $obtenerDatos = [
+                        'id'=>$user['id'],
+                        'name'=>$user['name'],
+                    ];
+                    $session->set($obtenerDatos);
+                return view('CategoriesAdminView');
+                }else{
+                    $obtenerDatos = [
+                        'id'=>$user['id'],
+                        'name'=>$user['name'],
+                    ];
+                    $session->set($obtenerDatos);
+                    print("pagina cliente");
+                }
             }
         }
-       // print_r($user['password']);
-       // print_r($user['email']);
+       
+    }
+    public function cerrarSesion(){
+        $session = session();
+        $session->destroy();
+        return view('LoginView');
 
-        //if($user = $model->getUserLogin('email', $email)){
-            
-       // }
     }
 
 }
