@@ -8,7 +8,11 @@
 </head>
 
 <?php
- // include('functions.php');
+ $message= NULL;
+ session_start();
+ if(isset($_SESSION['message'])){
+    $message = $_SESSION['message'];
+}
 ?>
 
 <body>
@@ -26,28 +30,15 @@
   <button name = "LoginButton" type="submit" class="btn btn-primary">Login</button>
   <br>
   <div>If you don´t have an account <a href="<?php echo base_url('register') ?>">Signup here</a></div>
+  <br>
+  <br>
+  <div id="messageLogin" class="labelMessage">
+    <?php 
+        echo $message;
+        unset($_SESSION['message']);
+    ?></div>
 </form>
 </div>
-
-
-<?php
-
-//if (isset($_POST["LoginButton"])) 
-//{
-//$ResultAuthenticate = authenticate(credentials(),"EmailLogin","PasswordLogin");
-//if ($ResultAuthenticate == true ){
- // session_start();
-  //$_SESSION['user'] = $ResultAuthenticate;
-  //if($ResultAuthenticate[10]== "Administrator"){
- // header('Location: categoriesMain.php');
- // }else if ($ResultAuthenticate[10]== "Client"){
- // header('Location: dashboardNews.php');
- // }
-//}else {
-//  echo '<script>alert("CREDENCIALES INVÁLIDOS")</script>';
-//}}
-
-  ?>
 
 
 

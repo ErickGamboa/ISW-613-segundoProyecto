@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<a href="login.php"><img class = "logotypePosition" src="<?php echo base_url('images/Logotype.png') ?>"></a>
+<a href="<?php echo site_url('/login') ?>"><img class = "logotypePosition" src="<?php echo base_url('images/Logotype.png') ?>"></a>
 <title>Register</title>
 <link rel="stylesheet" href="<?php echo base_url('css/Style.css') ?>">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
+
+<?php
+ $message= NULL;
+ session_start();
+ if(isset($_SESSION['message'])){
+    $message = $_SESSION['message'];
+}
+?>
 
 <body>
 
@@ -71,36 +79,16 @@ for($i =0; $i<count($response->data); $i++){
 
 
 <button name = "registerButton" type="submit" class="btn btn-primary">Sign up</button>
-
+<br>
+<br>
+<div id="messageLogin" class="labelMessage">
+    <?php 
+        echo $message;
+        unset($_SESSION['message']);
+    ?></div>
 
 </form>
 </div>
-
-
-<?php
-
-/** Validación para que no se guarden datos vacios */
-//if (isset($_POST["registerButton"])) 
-//{
-  //  if(empty($_POST['name']) ||  empty($_POST['lastName'])  ||  empty($_POST['email'])  ||  empty($_POST['password'])  || 
-    //   empty($_POST['address']) ||  empty($_POST['country'])  ||  empty($_POST['city'])  || empty($_POST['postalCode'])   ||
-      // empty($_POST['phoneNumber']) ||  empty($_POST['typeUser'])) {
-
-    //echo '<script>alert("DEBES COMPLTEAR TODA LA INFORMACIÓN REQUERIDA")</script>';
-
-    //}
-    //else{
-
-    //saveUser(credentials(),"name","lastName","email","password","address","country","city","postalCode","phoneNumber","typeUser");
-    //echo '<script>alert("USUARIO CREADO CON ÉXITO")</script>';
-
-    //}
-
-//}
-
-  ?>
-
-
 
 
 </body>

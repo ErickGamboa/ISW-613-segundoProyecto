@@ -1,0 +1,132 @@
+CRITICAL - 2022-04-28 23:12:01 --> There is no data to update.
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(63): CodeIgniter\Model->update('7', NULL)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 23:12:26 --> There is no data to update.
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(63): CodeIgniter\Model->update('7', NULL)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 23:29:05 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Nacionalessss', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Nacionalessss')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(63): CodeIgniter\Model->update('6', 'Nacionalessss')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:29:38 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Nacionaless', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Nacionaless')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(63): CodeIgniter\Model->update('6', 'Nacionaless')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:30:58 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Internacionales...', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Internacionales...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(63): CodeIgniter\Model->update('9', 'Internacionales...')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:47:42 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Nacionaless', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Nacionaless')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('6', 'Nacionaless')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:50:46 --> Undefined constant "App\Controllers\request"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-28 23:52:09 --> Array to string conversion
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\y_eri\\...', 66)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-28 23:52:27 --> There is no data to update.
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('10', Array)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:54:12 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('lol', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'lol')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('10', 'lol')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:54:40 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Politicaaa', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Politicaaa')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('10', 'Politicaaa')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:55:24 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Politicaaa', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Politicaaa')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('10', 'Politicaaa')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:55:44 --> There is no data to update.
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('6', Array)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:58:07 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Nacionales', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Nacionales')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('6', 'Nacionales')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 23:58:27 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Nacionales', 'update')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Nacionales')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(65): CodeIgniter\Model->update('6', 'Nacionales')
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

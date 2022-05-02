@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('LoginController');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -55,3 +55,15 @@ $routes->get('login', 'LoginController::index');
 $routes->post('authentication', 'LoginController::authentication');
 $routes->get('CategoriesAdminView', 'CategorieAdminController::index');
 $routes->post('saveCategory', 'CategorieAdminController::saveCategory');
+$routes->get('deleteCategory/(:num)', 'CategorieAdminController::deleteCategory/$1');
+$routes->get('editCategory/(:num)', 'CategorieAdminController::editCategory/$1');
+$routes->post('updateCategory', 'CategorieAdminController::updateCategory');
+$routes->post('logout', 'CategorieAdminController::logout');
+$routes->post('NewSourcesView', 'NewSourcesController::index');
+$routes->post('saveNewsSources', 'NewSourcesController::saveNewsSources');
+$routes->get('refreshNewSource', 'NewSourcesController::index');
+$routes->get('deleteSource/(:num)', 'NewSourcesController::deleteSource/$1');
+$routes->get('editSource/(:num)', 'NewSourcesController::editSource/$1');
+$routes->post('updateSource', 'NewSourcesController::updateSource');
+$routes->get('dashboard', 'DashboardController::index');
+//$routes->get('link/(:any)', 'DashboardController::link/$1');

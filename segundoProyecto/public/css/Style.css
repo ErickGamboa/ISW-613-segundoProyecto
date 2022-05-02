@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+.labelMessage{
+    color: rgb(247, 0, 0);
+}
+
 .logoutButtonPosition{
     position: absolute;
     margin-top: 2%;

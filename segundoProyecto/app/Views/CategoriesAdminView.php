@@ -9,12 +9,19 @@
 
 
 <body>
-<?php// print_r($category);?>
-<form method="POST" action = "<?php echo site_url('/saveCategory') ?>" >
+
+<form method="POST" action = "<?php echo site_url('/logout') ?>" >
 
 <div class = "logoutButtonPosition">
 <button name = "LogoutButton" type="submit" class="btn btn-primary">Logout</button>
 </div>
+
+</form>
+
+
+
+
+<form method="POST" action = "<?php echo site_url('/saveCategory') ?>" >
 
 
 <div class = "categorieAddConteiner">  
@@ -41,23 +48,21 @@
     <tbody>
 
     <?php
-    //$query = "SELECT * FROM categories";
-    //$excutingQuery = mysqli_query(credentials(),$query);
-    //while ($row = mysqli_fetch_array($excutingQuery)){
+    foreach ($category as $categoryy):
     ?>
     <tr>
-    <td><?php //echo $row ["id"] ?></td>
-      <td><?php //echo $row ["category"] ?></td>
+    <td><?php echo $categoryy ['id'] ?></td>
+      <td><?php echo $categoryy ['nameCategory'] ?></td>
 
 
       <td>
         
 
-      <a href="editCategory.php?id=<?php //echo $row["id"]?>" class="btn btn-primary">Edit
+      <a href="<?php echo base_url('deleteCategory/'.$categoryy ['id']);?>" class="btn btn-primary">Delete
 
       </a>
 
-      <a href="deleteCategory.php?id=<?php //echo $row["id"]?>" class="btn btn-primary">Delete
+      <a href="<?php echo base_url('editCategory/'.$categoryy ['id']);?>" class="btn btn-primary">Edit
 
       </a>
 
@@ -69,7 +74,7 @@
 
     </tr>
     <?php
-    //}
+    endforeach;
     ?>
     </tbody>
   </table>
@@ -78,35 +83,6 @@
 </form>
 
 
-  
-
-
-
-  <?php
-
-   // if (isset($_POST["saveCategrieButton"])) {
-
-     // if(empty($_POST['nameCategorie'])) {
-
-     //   echo '<script>alert("DEBES COLOCARLE NOMBRE A LA CATEGORÍA")</script>';
-     //   }
-    //  else{
-
-      //  saveCategorie(credentials(),"nameCategorie");
-      //  header('Location: categoriesMain.php');
-      //  }
-     // }
-
-    //if (isset($_POST["LogoutButton"])) {
-    //    session_start();
-    //    session_destroy();
-     //   header('Location: login.php');
-     // }
-      
-      
-    
-
-  ?>
 
 
 

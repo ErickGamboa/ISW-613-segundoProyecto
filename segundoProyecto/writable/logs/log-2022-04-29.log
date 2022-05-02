@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-29 00:41:38 --> Undefined variable $name
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\CategorieAdminController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\y_eri\\...', 66)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\CategorieAdminController->updateCategory()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategorieAdminController))
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

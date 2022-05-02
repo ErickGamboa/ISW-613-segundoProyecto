@@ -1,0 +1,72 @@
+CRITICAL - 2022-05-02 00:03:39 --> Undefined constant "souces"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include()
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('DashboardNewsVi...', Array, true)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(19): view('DashboardNewsVi...', Array)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 00:04:03 --> Undefined array key 0
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\DashboardNewsView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 37)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('DashboardNewsVi...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(19): view('DashboardNewsVi...', Array)
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-02 00:07:12 --> Undefined array key "categorySource"
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\DashboardNewsView.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\y_eri\\...', 39)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('DashboardNewsVi...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(19): view('DashboardNewsVi...', Array)
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-02 00:08:19 --> Trying to access array offset on value of type null
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Views\DashboardNewsView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\y_eri\\...', 41)
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include('C:\\Users\\y_eri\\...')
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('DashboardNewsVi...', Array, true)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(19): view('DashboardNewsVi...', Array)
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-02 00:09:28 --> Cannot access offset of type string on string
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include()
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('DashboardNewsVi...', Array, true)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(16): view('DashboardNewsVi...', Array)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 00:10:34 --> Cannot access offset of type string on string
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(210): include()
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('DashboardNewsVi...', Array, true)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(16): view('DashboardNewsVi...', Array)
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 00:11:10 --> Invalid file: dashboard.php
+#0 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\app\Controllers\DashboardController.php(16): view('dashboard', Array)
+#3 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#4 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\y_eri\OneDrive\Escritorio\xampp\htdocs\segundoProyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
